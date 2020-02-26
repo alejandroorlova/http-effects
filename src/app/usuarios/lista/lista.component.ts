@@ -16,10 +16,10 @@ export class ListaComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.usuarioService.getUsers().subscribe( users => {
-      console.log(users);
-      this.usuarios = users;
-    });
+    // this.usuarioService.getUsers().subscribe( users => {
+    //   console.log(users);
+    //   this.usuarios = users;
+    // });
   }
 
 }
